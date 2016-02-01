@@ -401,17 +401,17 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>1.7.2</version>
+                <version>1.7.7</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>jcl-over-slf4j</artifactId>
-                <version>1.7.2</version>
+                <version>1.7.7</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
-                <version>1.7.2</version>
+                <version>1.7.7</version>
             </dependency>
             <!-- Log4J -->
             <dependency>
@@ -434,7 +434,7 @@
             <dependency>
                 <groupId>org.javassist</groupId>
                 <artifactId>javassist</artifactId>
-                <version>3.18.1-GA</version>
+                <version>3.19.0-GA</version>
             </dependency>
             <dependency>
                 <groupId>org.sonatype.aether</groupId>
@@ -484,7 +484,7 @@
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
-                <version>2.0</version>
+                <version>2.9.1</version>
             </dependency>
             <dependency>
                 <groupId>org.codehaus.jackson</groupId>
@@ -741,6 +741,52 @@
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
                 <version>2.4.5</version>
+            </dependency>
+
+            <!-- IPF Platform -->
+            <dependency>
+                <groupId>org.openehealth.ipf.platform-camel</groupId>
+                <artifactId>ipf-platform-camel-core</artifactId>
+                <version>3.1-20151130</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openehealth.ipf.platform-camel</groupId>
+                <artifactId>ipf-platform-camel-hl7</artifactId>
+                <version>3.1-20151130</version>
+            </dependency>
+            <!-- IPF OSGI Config -->
+            <dependency>
+                <groupId>org.openehealth.ipf.osgi</groupId>
+                <artifactId>ipf-osgi-config-log</artifactId>
+                <version>3.1-20151130</version>
+            </dependency>
+            <!-- IPF Modules -->
+            <dependency>
+                <groupId>org.openehealth.ipf.modules</groupId>
+                <artifactId>ipf-modules-hl7</artifactId>
+                <version>3.1-20151130</version>
+            </dependency>
+            <!--IPF Commons -->
+            <dependency>
+                <groupId>org.openehealth.ipf.commons</groupId>
+                <artifactId>ipf-commons-map</artifactId>
+                <version>3.1-20151130</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ca.uhn.hapi</groupId>
+                <artifactId>hapi-osgi-base</artifactId>
+                <version>2.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.mina</groupId>
+                <artifactId>mina-core</artifactId>
+                <version>2.0.9</version>
+            </dependency>
+            <dependency>
+                <groupId>net.sf.saxon</groupId>
+                <artifactId>org.motechproject.saxon-he</artifactId>
+                <version>9.6.0-2-${external.dependency.release.tag}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

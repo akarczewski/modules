@@ -7,4 +7,5 @@
 
     <osgi:service ref="ipfInitializer" interface="org.motechproject.ipf.service.IPFInitializer" />
 
+    <osgi:service ref="bidiMappingService" interface="org.openehealth.ipf.commons.map.MappingService" />
 </beans>
